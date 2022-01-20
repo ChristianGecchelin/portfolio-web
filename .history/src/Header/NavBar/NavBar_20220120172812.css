@@ -1,0 +1,65 @@
+.NavBar .MobileNavigation {
+  display: none;
+}
+.NavBar .Navigation {
+  display: flex;
+  align-items: center;
+}
+.NavBar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+  list-style: none;
+}
+.NavBar nav ul li a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2rem;
+  text-decoration: none;
+}
+a:visited {
+  color: #8c1cd1;
+}
+@media (max-width: 750px) {
+  .NavBar .Navigation {
+    display: none;
+  }
+  .NavBar .MobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+  .NavBar .MobileNavigation .hamburguer {
+    position: absolute;
+    color: #000;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .NavBar nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  .NavBar nav ul li a {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  a:visited {
+    color: #8c1cd1;
+  }
+}

@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+  max-width: 800px;
+  height: 15vh;
+}
+header h1 {
+  margin: 0;
+  width: 20%;
+}

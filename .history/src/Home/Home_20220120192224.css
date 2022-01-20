@@ -1,0 +1,10 @@
+.Home-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  height: 85vh;
+  margin: 0 auto;
+}

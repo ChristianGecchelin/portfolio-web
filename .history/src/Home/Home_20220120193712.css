@@ -1,0 +1,67 @@
+.Home-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  min-width: 280px;
+  height: 85vh;
+  margin: 0 auto;
+  gap: 30px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.first-lineText {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 6rem;
+  color: #fff;
+}
+.principal-lineText {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #fff;
+}
+.secondary-lineText {
+  font-size: 5rem;
+  font-weight: 500;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .Home-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .first-lineText {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 6rem;
+    color: #fff;
+  }
+  .principal-lineText {
+    font-size: 6rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  .secondary-lineText {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #fff;
+  }
+}

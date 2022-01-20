@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+  height: 15vh;
+}
+header h1 {
+  margin: 0;
+  width: 20%;
+  min-width: 200px;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+}
+header h1 span {
+  background: linear-gradient(147deg, #ce93d8 0%, #8c1cd1 74%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 500;
+}
+@media (max-width: 750px) {
+  header {
+    justify-content: center;
+    gap: 0;
+  }
+}

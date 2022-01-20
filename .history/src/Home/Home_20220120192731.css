@@ -1,0 +1,23 @@
+.Home-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  min-width: 280px;
+  height: 85vh;
+  margin: 0 auto;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+}
+.first-lineText {
+  font-size: 2rem;
+  color: #fff;
+}
