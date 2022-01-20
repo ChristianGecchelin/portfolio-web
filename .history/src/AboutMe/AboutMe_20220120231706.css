@@ -1,0 +1,22 @@
+.AboutMe-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-width: 300px;
+  height: 100vh;
+}
+.AboutMe-container .image-container {
+  width: 50%;
+  height: 100vh;
+}
+.AboutMe-container .image-container .image {
+  object-fit: contain;
+  width: 400px;
+  height: 400px;
+}
+.AboutMe-container .information-container {
+  width: 50%;
+  height: 100vh;
+}
