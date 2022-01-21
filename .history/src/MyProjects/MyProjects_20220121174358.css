@@ -1,0 +1,8 @@
+.project-section {
+  height: 100vh;
+  width: 80%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

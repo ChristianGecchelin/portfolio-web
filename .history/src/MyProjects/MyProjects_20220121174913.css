@@ -1,0 +1,22 @@
+.project-section {
+  height: 100vh;
+  width: 80%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.project-section .project-card {
+  width: 30%;
+  min-width: 320px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-section .project-card {
+}
