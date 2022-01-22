@@ -1,0 +1,102 @@
+.ContactMe-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  min-width: 320px;
+}
+.ContactMe-container .form-container {
+  height: 100vh;
+  min-width: 320px;
+  width: 45%;
+  text-align: center;
+}
+.ContactMe-container .form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.ContactMe-container .form-container form .form-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 25%;
+  gap: 20px;
+}
+.ContactMe-container .form-container form .xl {
+  height: 50%;
+}
+.ContactMe-container .form-container form label {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+.ContactMe-container .form-container form input {
+  height: 50px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #8c1cd1;
+  padding: 5px;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.ContactMe-container .form-container form textarea {
+  height: 70%;
+  width: 100%;
+  background: #8c1cd1;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.8rem;
+}
+.ContactMe-container .form-container form textarea::placeholder {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.ContactMe-container .form-container form textarea:focus {
+  outline: none;
+  border: 2px solid rgb(156, 156, 156);
+}
+.ContactMe-container .form-container form input:focus {
+  border: 2px solid rgb(156, 156, 156);
+}
+.socialNetwork-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 45%;
+  min-width: 320px;
+  gap: 10px;
+}
+.socialNetwork-container .card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 30%;
+}
+.socialNetwork-container .card-container svg {
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+  color: #fff;
+}
+@media (min-width: 700px) {
+  .socialNetwork-container .card-container {
+    width: 30%;
+  }
+}
