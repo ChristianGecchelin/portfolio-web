@@ -99,21 +99,13 @@
   min-width: 320px;
   gap: 10px;
 }
-.socialNetwork-container a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  height: 30%;
-}
 .socialNetwork-container a .card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 30%;
 }
 .socialNetwork-container a .card-container svg {
   width: 10rem;

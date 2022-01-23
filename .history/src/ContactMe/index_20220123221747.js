@@ -63,15 +63,15 @@ function ContactMe() {
         </form>
       </div>
       <div className="socialNetwork-container">
-        <a
-          href="https://github.com/ChristianGecchelin"
-          target="_blank"
-          rel="external noreferrer noopener"
-        >
-          <div className="card-container">
+        <div className="card-container">
+          <a
+            href="https://github.com/ChristianGecchelin"
+            target="_blank"
+            rel="external noreferrer noopener"
+          >
             <BsGithub />
-          </div>{" "}
-        </a>
+          </a>
+        </div>
         <a
           href="https://www.linkedin.com/in/christiangecchelin/"
           target="_blank"
@@ -81,15 +81,15 @@ function ContactMe() {
             <BsLinkedin />
           </div>
         </a>
-        <a
-          href="https://twitter.com/ChristianGecche"
-          target="_blank"
-          rel="external noreferrer noopener"
-        >
-          <div className="card-container">
+        <div className="card-container">
+          <a
+            href="https://twitter.com/ChristianGecche"
+            target="_blank"
+            rel="external noreferrer noopener"
+          >
             <BsTwitter />
-          </div>{" "}
-        </a>
+          </a>
+        </div>
       </div>
     </section>
   );
