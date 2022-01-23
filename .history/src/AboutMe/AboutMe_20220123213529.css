@@ -36,8 +36,7 @@
   font-weight: 400;
   color: #fff;
 }
-
-.AboutMe-container .information-container a button {
+.AboutMe-container .information-container button {
   width: 200px;
   height: 50px;
   background: #8c1cd1;
@@ -45,12 +44,12 @@
   border-radius: 15px;
   cursor: pointer;
   margin: 0 auto;
+}
+.AboutMe-container .information-container button a {
   color: #fff;
   font-size: 2rem;
   letter-spacing: 1px;
-  text-decoration: none;
 }
-
 @media (min-width: 700px) {
   .AboutMe-container {
     gap: 20px;

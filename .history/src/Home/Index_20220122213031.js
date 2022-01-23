@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 function Home(props) {
   return (
-    <section className="Home-container" id="home">
+    <section id="id" className="Home-container">
       <div className="text-container">
         <p className="first-lineText">Hi, my name is</p>
         <p className="principal-lineText">Christian Gecchelin</p>
@@ -11,11 +11,9 @@ function Home(props) {
           <span data-text="Developer">Developer </span>
         </div>
       </div>
-      <a href="/#contact">
-        <button type="button" className="contact-button">
-          Contact Me
-        </button>
-      </a>
+      <button type="button" className="contact-button">
+        Contact Me
+      </button>
     </section>
   );
 }

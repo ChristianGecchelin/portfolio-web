@@ -28,20 +28,13 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/to-do-app"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
+            <a>
               <button>See repository</button>
             </a>
-            <a
-              href="https://christiangecchelin.github.io/to-do-app/"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
+            <a>
               <button>See Project</button>
             </a>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
@@ -65,13 +58,8 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/RickAndMortyApi"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
+            <button>See repository</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
@@ -94,13 +82,8 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/javascript-project"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
+            <button>See repository</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
@@ -122,13 +105,8 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/spa-full-css-html"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
+            <button>See repository</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
@@ -150,13 +128,8 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/portfolio-web"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
+            <button>See repository</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>

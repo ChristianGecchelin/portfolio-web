@@ -67,7 +67,7 @@ function ContactMe() {
           <a
             href="https://github.com/ChristianGecchelin"
             target="_blank"
-            rel="external noreferrer noopener"
+            rel="external noopener"
           >
             <BsGithub />
           </a>
@@ -76,7 +76,7 @@ function ContactMe() {
           <a
             href="https://www.linkedin.com/in/christiangecchelin/"
             target="_blank"
-            rel="external noreferrer noopener"
+            rel="external noopener"
           >
             <BsLinkedin />
           </a>
@@ -85,7 +85,7 @@ function ContactMe() {
           <a
             href="https://twitter.com/ChristianGecche"
             target="_blank"
-            rel="external noreferrer noopener"
+            rel="external noopener"
           >
             <BsTwitter />
           </a>

@@ -11,7 +11,7 @@ function Home(props) {
           <span data-text="Developer">Developer </span>
         </div>
       </div>
-      <a href="/#contact">
+      <a href="/#contact" target="_blank">
         <button type="button" className="contact-button">
           Contact Me
         </button>

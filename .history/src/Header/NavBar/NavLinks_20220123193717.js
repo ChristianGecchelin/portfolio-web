@@ -28,7 +28,7 @@ function NavLinks(props) {
         transition={{ delay: 0.2 }}
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
-        <a href="/#projects">My Projects</a>
+        <a href="/#Projects">My Projects</a>
       </motion.li>
       <motion.li
         initial={animateFrom}

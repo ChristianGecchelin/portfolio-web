@@ -64,29 +64,17 @@ function ContactMe() {
       </div>
       <div className="socialNetwork-container">
         <div className="card-container">
-          <a
-            href="https://github.com/ChristianGecchelin"
-            target="_blank"
-            rel="external noreferrer noopener"
-          >
+          <a href="https://github.com/ChristianGecchelin">
             <BsGithub />
           </a>
         </div>
         <div className="card-container">
-          <a
-            href="https://www.linkedin.com/in/christiangecchelin/"
-            target="_blank"
-            rel="external noreferrer noopener"
-          >
+          <a href="https://www.linkedin.com/in/christiangecchelin/">
             <BsLinkedin />
           </a>
         </div>
         <div className="card-container">
-          <a
-            href="https://twitter.com/ChristianGecche"
-            target="_blank"
-            rel="external noreferrer noopener"
-          >
+          <a href="https://twitter.com/ChristianGecche">
             <BsTwitter />
           </a>
         </div>

@@ -66,7 +66,7 @@ function MyProjects() {
           </div>
           <div className="button-container">
             <a
-              href="https://github.com/ChristianGecchelin/RickAndMortyApi"
+              href="https://www.linkedin.com/in/christiangecchelin/"
               target="_blank"
               rel="external noreferrer noopener"
             >
@@ -95,7 +95,7 @@ function MyProjects() {
           </div>
           <div className="button-container">
             <a
-              href="https://github.com/ChristianGecchelin/javascript-project"
+              href="https://www.linkedin.com/in/christiangecchelin/"
               target="_blank"
               rel="external noreferrer noopener"
             >
@@ -123,7 +123,7 @@ function MyProjects() {
           </div>
           <div className="button-container">
             <a
-              href="https://github.com/ChristianGecchelin/spa-full-css-html"
+              href="https://www.linkedin.com/in/christiangecchelin/"
               target="_blank"
               rel="external noreferrer noopener"
             >
@@ -151,7 +151,7 @@ function MyProjects() {
           </div>
           <div className="button-container">
             <a
-              href="https://github.com/ChristianGecchelin/portfolio-web"
+              href="https://www.linkedin.com/in/christiangecchelin/"
               target="_blank"
               rel="external noreferrer noopener"
             >

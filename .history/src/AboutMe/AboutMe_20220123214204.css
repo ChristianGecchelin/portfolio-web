@@ -36,7 +36,12 @@
   font-weight: 400;
   color: #fff;
 }
-
+.AboutMe-container .information-container a {
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
 .AboutMe-container .information-container a button {
   width: 200px;
   height: 50px;

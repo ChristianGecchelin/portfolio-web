@@ -28,20 +28,9 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/to-do-app"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
-            <a
-              href="https://christiangecchelin.github.io/to-do-app/"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See Project</button>
-            </a>
+            <button>See repository</button>
+            <button>See Project</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
@@ -50,8 +39,8 @@ function MyProjects() {
           <img
             className="card-image"
             src={Rick}
-            alt="rickandmortypic"
-            title="rickandmortypic"
+            alt="ToDoAppImage"
+            title="ToDoAppImage"
           ></img>
           <div className="card-text-container">
             <h3 className="card-title xl">Rick And Morty</h3>
@@ -65,13 +54,8 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/RickAndMortyApi"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
+            <button>See repository</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
@@ -80,8 +64,8 @@ function MyProjects() {
           <img
             className="card-image"
             src={Calculator}
-            alt="Calculator Js"
-            title="Calculator Js"
+            alt="ToDoAppImage"
+            title="ToDoAppImage"
           ></img>
           <div className="card-text-container">
             <h3 className="card-title">Calculator</h3>
@@ -94,13 +78,8 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/javascript-project"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
+            <button>See repository</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
@@ -109,8 +88,8 @@ function MyProjects() {
           <img
             className="card-image"
             src={Mobile}
-            alt="CriptoExchange"
-            title="CriptoExchange"
+            alt="ToDoAppImage"
+            title="ToDoAppImage"
           ></img>
           <div className="card-text-container">
             <h3 className="card-title xl">Website-Mobile-First</h3>
@@ -122,13 +101,8 @@ function MyProjects() {
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/spa-full-css-html"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
+            <button>See repository</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
@@ -146,17 +120,12 @@ function MyProjects() {
               My Portfolio made with React's library, and CSS vanilla
             </p>
             <p className="card-text">
-              Stack used: React hooks, Js POO. Css Animation, Css flexbox.
+              Stack used: React props, Js POO. Css Animation, Css flexbox.
             </p>
           </div>
           <div className="button-container">
-            <a
-              href="https://github.com/ChristianGecchelin/portfolio-web"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
+            <button>See repository</button>
+            {/* Crear componentes botones */}
           </div>
         </div>
       </div>
