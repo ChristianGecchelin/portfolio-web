@@ -16,15 +16,15 @@ function AboutMe() {
       <div className="information-container">
         <p className="">
           Hello, my name is Christian and I work as a ReactJs junior developer.
-          I was born in Argentina, but I currently reside in Barcelona. I
+          I was born in Argentina, but I currently reside in Barcelona.I
           consider myself a technology enthusiast who appreciates taking on new
           challenges and expanding my knowledge.
         </p>
         <p>
-          The following slide has a list of all of my projects. All of them are
-          made with front-end technologies like HTML5, CSS3, vanilla JavaScript,
-          and ReactJs. I am looking for new career options and hope to speak
-          with you soon. Please use the form below to contact me.
+          On the next slide, you'll see a list of all of my projects. They are
+          all build on Front-end technologies such as HTML5, CSS3, vanilla
+          JavaScript, and ReactJs. I am looking for new career options and hope
+          to speak with you soon. You can contact me in the form below.
         </p>
         <a href={resume} target="_blank" rel="noreferrer noopener">
           <button>Resume</button>

@@ -16,7 +16,7 @@ function AboutMe() {
       <div className="information-container">
         <p className="">
           Hello, my name is Christian and I work as a ReactJs junior developer.
-          I was born in Argentina, but I currently reside in Barcelona. I
+          I was born in Argentina, but I currently reside in Barcelona.I
           consider myself a technology enthusiast who appreciates taking on new
           challenges and expanding my knowledge.
         </p>
