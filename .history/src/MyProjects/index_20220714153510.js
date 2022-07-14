@@ -4,6 +4,8 @@ import Rick from "../Assets/rick.png";
 import Calculator from "../Assets/calculator.png";
 import Mobile from "../Assets/mobile.png";
 import Portfolio from "../Assets/portfolio.png";
+import Ironfit from "../Assets/ironfit.png";
+import CarGame from "../Assets/carGame.png";
 import "./MyProjects.css";
 function MyProjects() {
   return (
@@ -37,6 +39,111 @@ function MyProjects() {
             </a>
             <a
               href="https://christiangecchelin.github.io/to-do-app/"
+              target="_blank"
+              rel="external noreferrer noopener"
+            >
+              <button>See Project</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="vh-container">
+        <div className="project-card">
+          <img
+            className="card-image"
+            src={Ironfit}
+            alt="IronFit"
+            title="IronFit"
+          ></img>
+          <div className="card-text-container">
+            <h3 className="card-title">Iron-FIT</h3>
+            <p className="card-text">
+              Application to create your own gym routine, save your
+              achievements.
+            </p>
+            <p className="card-text">
+              Stack used: NodeJs, Express, Mongo, Handlebars, Mongoose; Css3,
+              Axios.
+            </p>
+          </div>
+          <div className="button-container">
+            <a
+              href="https://github.com/ChristianGecchelin/iron-fit/tree/prod"
+              target="_blank"
+              rel="external noreferrer noopener"
+            >
+              <button>See repository</button>
+            </a>
+            <a
+              href="https://ironhackfitness.herokuapp.com/"
+              target="_blank"
+              rel="external noreferrer noopener"
+            >
+              <button>See Project</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="vh-container">
+        <div className="project-card">
+          <img
+            className="card-image"
+            src={CarGame}
+            alt="CarGame"
+            title="CarGame"
+          ></img>
+          <div className="card-text-container">
+            <h3 className="card-title">CarGame</h3>
+            <p className="card-text">Videogame</p>
+            <p className="card-text">
+              Stack used: HTML5, CSS3, Canvas, Javascript
+            </p>
+          </div>
+          <div className="button-container">
+            <a
+              href="https://github.com/ChristianGecchelin/ironCarGame"
+              target="_blank"
+              rel="external noreferrer noopener"
+            >
+              <button>See repository</button>
+            </a>
+            <a
+              href="https://christiangecchelin.github.io/ironCarGame/"
+              target="_blank"
+              rel="external noreferrer noopener"
+            >
+              <button>See Project</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="vh-container">
+        <div className="project-card">
+          <img
+            className="card-image"
+            src={Portfolio}
+            alt="Portfolio"
+            title="Portfolio"
+          ></img>
+          <div className="card-text-container">
+            <h3 className="card-title">Portfolio</h3>
+            <p className="card-text">
+              My Portfolio made with React's library, and CSS vanilla
+            </p>
+            <p className="card-text">
+              Stack used: React hooks, Js POO. Css Animation, Css flexbox.
+            </p>
+          </div>
+          <div className="button-container">
+            <a
+              href="https://github.com/ChristianGecchelin/portfolio-web"
+              target="_blank"
+              rel="external noreferrer noopener"
+            >
+              <button>See repository</button>
+            </a>
+            <a
+              href="https://christiangecchelin.github.io/ironCarGame/"
               target="_blank"
               rel="external noreferrer noopener"
             >
@@ -95,7 +202,7 @@ function MyProjects() {
           </div>
           <div className="button-container">
             <a
-              href="https://www.linkedin.com/in/christiangecchelin/"
+              href="https://github.com/ChristianGecchelin/javascript-project"
               target="_blank"
               rel="external noreferrer noopener"
             >
@@ -123,35 +230,7 @@ function MyProjects() {
           </div>
           <div className="button-container">
             <a
-              href="https://www.linkedin.com/in/christiangecchelin/"
-              target="_blank"
-              rel="external noreferrer noopener"
-            >
-              <button>See repository</button>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="vh-container">
-        <div className="project-card">
-          <img
-            className="card-image"
-            src={Portfolio}
-            alt="Portfolio"
-            title="Portfolio"
-          ></img>
-          <div className="card-text-container">
-            <h3 className="card-title">Portfolio</h3>
-            <p className="card-text">
-              My Portfolio made with React's library, and CSS vanilla
-            </p>
-            <p className="card-text">
-              Stack used: React hooks, Js POO. Css Animation, Css flexbox.
-            </p>
-          </div>
-          <div className="button-container">
-            <a
-              href="https://www.linkedin.com/in/christiangecchelin/"
+              href="https://github.com/ChristianGecchelin/spa-full-css-html"
               target="_blank"
               rel="external noreferrer noopener"
             >
