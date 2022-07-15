@@ -128,7 +128,7 @@ function MyProjects() {
           <div className="card-text-container">
             <h3 className="card-title">Portfolio</h3>
             <p className="card-text">
-              My Portfolio made with React JS library, and CSS vanilla
+              My Portfolio made with React's library, and CSS vanilla
             </p>
             <p className="card-text">
               Stack used: React hooks, Js POO. Css Animation, Css flexbox.
