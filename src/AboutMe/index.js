@@ -23,8 +23,8 @@ function AboutMe() {
         <p>
           The following slide has a list of all of my projects. All of them are
           made with front-end technologies like HTML5, CSS3, vanilla JavaScript,
-          and ReactJs. I am looking for new career options and hope to speak
-          with you soon. Please use the form below to contact me.
+          NodeJs, MongoDB and ReactJs. I am looking for new career options and
+          hope to speak with you soon. Please use the form below to contact me.
         </p>
         <a href={resume} target="_blank" rel="noreferrer noopener">
           <button>Resume</button>
