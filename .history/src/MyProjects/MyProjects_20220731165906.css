@@ -35,8 +35,8 @@
   width: 320px;
   height: 30%;
   object-fit: fill;
-  box-shadow: 0px 8px 18px -9px rgba(0, 0, 0, 0.1),
-    0px 4px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 8px 18px -9px rgba(255, 255, 255, 0.3),
+    0px 4px 8px rgba(255, 255, 255, 0.1);
 }
 .project-section .vh-container .project-card .card-text-container {
   display: flex;
@@ -88,7 +88,7 @@
   letter-spacing: 0.5px;
   cursor: pointer;
 }
-@media (min-width: 767px) {
+@media (min-width: 700px) {
   .project-section {
     justify-content: space-around;
     width: 90%;
@@ -97,7 +97,7 @@
   .project-section .vh-container .project-card {
     height: 90%;
     position: relative;
-    justify-content: flex-end;
+    justify-content: flex-start;
     border-radius: 5px;
   }
   .project-section .vh-container .project-card .card-image {

@@ -1,9 +1,0 @@
-::-webkit-scrollbar {
-  width: 15px;
-}
-::-webkit-scrollbar-track {
-  background: linear-gradient(147deg, #ce93d8 0%, #8c1cd1 74%);
-}
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(147deg, #ce93d8 0%, #8c1cd1 74%);
-}

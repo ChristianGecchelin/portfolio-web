@@ -4,12 +4,21 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 80%;
+  height: auto;
   min-width: 320px;
   margin: 0 auto;
 }
-.project-section .project-card {
+.project-section .vh-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.project-section .vh-container .project-card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -22,12 +31,14 @@
   text-align: center;
   gap: 5%;
 }
-.project-section .project-card .card-image {
+.project-section .vh-container .project-card .card-image {
   width: 320px;
   height: 30%;
   object-fit: fill;
+  box-shadow: 0px 8px 18px -9px rgba(255, 255, 255, 0.3),
+    0px 4px 8px rgba(255, 255, 255, 0.1);
 }
-.project-section .project-card .card-text-container {
+.project-section .vh-container .project-card .card-text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,7 +46,7 @@
   gap: 70px;
   height: 35%;
 }
-.project-section .project-card .card-title {
+.project-section .vh-container .project-card .card-text-container .card-title {
   width: 25%;
   margin: 0 auto;
   font-size: 1.6rem;
@@ -44,14 +55,17 @@
   color: #fff;
   border-bottom: 1px solid white;
 }
-.project-section .project-card .card-text {
+.project-section .vh-container .project-card .card-text-container .xl {
+  width: 50%;
+}
+.project-section .vh-container .project-card .card-text-container .card-text {
   font-size: 1.4rem;
   line-height: 2rem;
   font-weight: 400;
   color: #fff;
 }
 
-.project-section .project-card .button-container {
+.project-section .vh-container .project-card .button-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +74,7 @@
   height: 25%;
   gap: 15%;
 }
-.project-section .project-card .button-container button {
+.project-section .vh-container .project-card .button-container button {
   height: 50px;
   width: 50%;
   min-width: 175px;
@@ -74,23 +88,26 @@
   letter-spacing: 0.5px;
   cursor: pointer;
 }
-@media (min-width: 767px) {
+@media (min-width: 700px) {
   .project-section {
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
+    gap: 35px;
   }
-  .project-section .project-card {
+  .project-section .vh-container .project-card {
     height: 90%;
     position: relative;
-    justify-content: flex-end;
+    justify-content: flex-start;
     border-radius: 5px;
+    margin-top: 50px;
   }
-  .project-section .project-card .card-image {
+  .project-section .vh-container .project-card .card-image {
     position: absolute;
     top: calc(-3%);
     border-radius: 5px;
   }
-  .project-section .project-card .card-text-container {
-    height: auto;
+  .project-section .vh-container .project-card .card-text-container {
+    height: 241px;
+    padding: 0 20px;
   }
 }
